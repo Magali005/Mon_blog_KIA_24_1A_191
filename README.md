@@ -6,12 +6,12 @@ Créer une page web personnelle statique et interactive, mettant en valeur :
 - Ses projets
 - Ses coordonnées de contact
 
-## 👩‍💻 Auteur
+#  Auteur
 **ATANGANA OWONA JOYCE MAGALI**  
 KEYCE Academy – Filière : Tronc Commun  
 Niveau : B1
 
-## 🧱 Architecture du site
+# Architecture du site
 
 ```
 MON_BLOG_MAGALI/
@@ -23,7 +23,7 @@ MON_BLOG_MAGALI/
     └── photo_profil.jpg  # Photo affichée dans l'en-tête
 ```
 
-## 🧪 Instructions d'utilisation
+#  Instructions d'utilisation
 
 1. **Téléchargez ou clonez** ce dépôt GitHub
 2. Ouvrez le fichier `index.html` dans un navigateur web (Chrome, Firefox…)
@@ -32,7 +32,7 @@ MON_BLOG_MAGALI/
 5. Explorez la section des projets avec des liens GitHub
 6. Consultez les contacts en bas de page
 
-## 🌐 Déploiement (optionnel)
+# 🌐 Déploiement (Si vous voulez)
 
 Vous pouvez publier ce site avec **GitHub Pages** en activant la fonctionnalité dans l'onglet `Settings > Pages` de votre dépôt GitHub.
 
