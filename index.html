@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MON BLOG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="image/IMG-20250414-WA0251.jpg" alt="Photo de Magali" style="width:120px; height:120px; border-radius:50%; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+        <h1>Nom: ATANGANA OWONA JOYCE MAGALI</h1>
+        <p>KEYCE Academy - Filière Tronc-Commun - Niveau B1</p>
+    </header>
+
+    <section class="competences">
+        <h2>Mes Compétences Techniques 🛠️</h2>
+        <div class="btn-container">
+            <button onclick="afficherDescription('html')">HTML</button>
+            <button onclick="afficherDescription('css')">CSS</button>
+            <button onclick="afficherDescription('js')">JavaScript</button>
+            <button onclick="afficherDescription('git')">Git</button>
+            <button onclick="afficherDescription('wordpress')">WordPress</button>
+        </div>
+        <div id="description" class="description">
+            <p>Cliquez sur un bouton pour voir la description de la compétence.</p>
+        </div>
+        <div id="compteurs" class="compteurs">
+            <h3>Compétences vues :</h3>
+            <ul>
+                <li>HTML (<span id="c_html">0</span> clic)</li>
+                <li>CSS (<span id="c_css">0</span> clic)</li>
+                <li>JavaScript (<span id="c_js">0</span> clic)</li>
+                <li>Git (<span id="c_git">0</span> clic)</li>
+                <li>WordPress (<span id="c_wordpress">0</span> clic)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projets">
+        <h2>Projets Réalisés</h2>
+        <ul>
+            <li>
+                <h4>Projet 1 : MON BLOG HTML/CSS</h4>
+                <p>Un site personnel responsive.</p>
+                <a href="https://github.com/Magali005/Mon_blog_KIA_24_1A_191.git" target="_blank">Voir sur GitHub</a>
+            </li>
+            <li>
+                <h4>Projet 2 : Application de mon JavaScript</h4>
+                <p>Ajout/suppression de tâches avec LocalStorage.</p>
+                <a href="https://github.com/Magali005/Mon_blog_KIA_24_1A_191.git" target="_blank">Voir sur GitHub</a>
+            </li>
+            <li>
+                <h4>Projet 3 : Page d'accueil avec WordPress</h4>
+                <p>Page d'accueil créée avec Elementor.</p>
+                <a href="https://github.com/Magali005/Mon_blog_KIA_24_1A_191.git" target="_blank">Voir sur GitHub</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contacts">
+        <h2>Contacts</h2>
+        <p>Téléphone : 692125893</p>
+        <p>Email : owonamagali@gmail.com</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
